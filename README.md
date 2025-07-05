@@ -37,7 +37,7 @@ dottar init
 
 ---
 
-Dottar for non python user as .exe will be comming soon.
+Dottar for non python users as .exe will be comming soon.
 
 ---
 
