@@ -21,7 +21,7 @@ Dottar is a lightweight, open-source version control system (VCS) built with Pyt
 
 ## 📦 Download Dottar
 
-### 🔹 Option 1: For Developers (via Python)
+### 🔹 For Developers (via Python)
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/dottar.git
@@ -37,18 +37,7 @@ dottar init
 
 ---
 
-### 🔹 Option 2: For Normal Users (No Python)
-
-Download latest `.exe` (Windows only):
-
-👉 [Download Dottar.exe](https://github.com/YOUR_USERNAME/dottar/releases/latest)
-
-Then run from command line:
-
-```bash
-dottar.exe init
-dottar.exe commit -m "First commit"
-```
+Dottar for non python users as .exe will be comming soon.
 
 ---
 
@@ -166,9 +155,9 @@ This project is licensed under the MIT License © 2025 [Your Name]
 
 ## 🌐 Project Links
 
-- 🔗 GitHub Repo: [https://github.com/YOUR_USERNAME/dottar](https://github.com/YOUR_USERNAME/dottar)
-- 📘 Documentation: [https://YOUR_USERNAME.github.io/dottar](https://YOUR_USERNAME.github.io/dottar)
-- 📥 Releases: [https://github.com/YOUR_USERNAME/dottar/releases](https://github.com/YOUR_USERNAME/dottar/releases)
+- 🔗 GitHub Repo: https://github.com/forkandflow/dottar
+- 📘 Documentation: https://forkandflow.github.io/Dottar/
+- 📥 Releases: https://forkandflow.github.io/Dottar/
 
 ---
 
