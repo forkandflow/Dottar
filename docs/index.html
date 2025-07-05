@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dottar - Secure Version Control</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 2.5rem;
+      text-align: center;
+      border-bottom: 4px solid #005fa3;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+      padding: 1.5rem;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      color: #0077cc;
+      margin-bottom: 1rem;
+      display: inline-block;
+      font-size: 1.8rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    code {
+      background: #f8f9fa;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #005fa3;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    a.button:hover {
+      background: #004a8a;
+    }
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dottar</h1>
+    <p>A Secure, Git-Inspired Open Source Version Control System</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>📜 Summary</h2>
+      <p>Dottar is a lightweight and secure version control system inspired by Git. It offers a range of features designed to enhance the security of your commits while maintaining a familiar command structure for developers.</p>
+    </section>
+
+    <section>
+      <h2>🚀 Features</h2>
+      <ul>
+        <li>Secure commits with password-protected encryption</li>
+        <li>Git-like commands: <code>init</code>, <code>add</code>, <code>commit</code>, <code>log</code>, <code>checkout</code>, <code>diff</code></li>
+        <li>Local cloning support</li>
+        <li>Cross-platform and lightweight</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📦 Download</h2>
+      <p><strong>Option 1:</strong> For developers</p>
+      <code>git clone https://github.com/YOUR_USERNAME/dottar.git</code><br/>
+      <code>cd dottar</code><br/>
+      <code>pip install .</code>
+
+      <p><strong>Option 2:</strong> For users (No Python needed)</p>
+      <a class="button" href="https://github.com/YOUR_USERNAME/dottar/releases/latest">Download .exe</a>
+    </section>
+
+    <section>
+      <h2>📖 Documentation</h2>
+      <ul>
+        <li><code>dottar init</code> – Initialize a repo</li>
+        <li><code>dottar add filename</code> – Stage files</li>
+        <li><code>dottar commit -m "msg"</code> – Commit</li>
+        <li><code>dottar log</code> – Show history</li>
+        <li><code>dottar checkout COMMIT_ID</code> – Restore</li>
+        <li><code>dottar diff id1 id2</code> – View diff</li>
+        <li><code>dottar clone src dest</code> – Clone repo</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🤝 Contribute</h2>
+      <p>Dottar is in beta and open for contributions! Help us shape the future of lightweight secure version control.</p>
+      <a class="button" href="https://github.com/forkandflow/dottar">View on GitHub</a>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Dottar | MIT License | Built with ❤️ by Open Source Community
+  </footer>
+</body>
+</html>
