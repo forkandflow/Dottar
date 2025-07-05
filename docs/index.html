@@ -21,7 +21,7 @@
     }
     header h1 {
       margin: 0;
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     header p {
       font-size: 1.2rem;
@@ -63,6 +63,7 @@
       text-decoration: none;
       border-radius: 5px;
       transition: background 0.3s;
+      font-size: 1rem;
     }
     a.button:hover {
       background: #004a8a;
@@ -75,6 +76,42 @@
       position: relative;
       bottom: 0;
       width: 100%;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+      a.button {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+      }
+      .container {
+        padding: 0 0.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+      header p {
+        font-size: 0.9rem;
+      }
+      section h2 {
+        font-size: 1.3rem;
+      }
+      a.button {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+      }
     }
   </style>
 </head>
