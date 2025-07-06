@@ -15,7 +15,7 @@ Dottar is a lightweight, open-source version control system (VCS) built with Pyt
 - 🧾 `diff` – view line-by-line changes between commits
 - 📦 `clone` – locally copy a repository with full history
 - 💻 Cross-platform CLI (Windows, macOS, Linux)
-- 🚀 Also available as a standalone `.exe` (no Python needed!)
+<!--- 🚀 Also available as a standalone `.exe` (no Python needed!)-->
 
 ---
 
