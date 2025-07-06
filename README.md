@@ -24,7 +24,7 @@ Dottar is a lightweight, open-source version control system (VCS) built with Pyt
 ### 🔹 For Developers (via Python)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/dottar.git
+git clone https://github.com/forkandflow/dottar.git
 cd dottar
 pip install .
 ```
