@@ -169,7 +169,7 @@ We welcome all contributors to help improve and grow the project!
 
 📌 Whether it's improving CLI design, fixing bugs, adding features, or writing docs — **your contributions matter**.
 
-Please read the `CONTRIBUTING.md` (coming soon) and open a pull request or issue.
+Please read the `CONTRIBUTING.md` and open a pull request or issue.
 
 > ❤️ Let’s build Dottar together!
 
