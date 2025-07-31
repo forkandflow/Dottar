@@ -4,6 +4,7 @@
 Dottar is a lightweight, open-source version control system (VCS) built with Python. Inspired by Git, Dottar adds **security-first features** like encrypted commits, password-protected restore, and simplified file history management — all via an easy-to-use CLI.
 
 > 🔧 Ideal for solo developers, students, and educational OS projects who want Git-like functionality with more privacy control.
+> Rather than a normal git software we are making something that is truly different and unqiue with advance features.
 
 ---
 
