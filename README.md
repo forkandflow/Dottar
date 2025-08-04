@@ -165,6 +165,7 @@ This project is licensed under the MIT License © 2025 [forkandflow]
 ## 🤝 Contribute
 
 **Dottar is in active development and currently in public beta phase.**
+We are open for contributions.
 
 We welcome all contributors to help improve and grow the project!
 
